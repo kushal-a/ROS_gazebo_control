@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find controller)/launch/launch_single_bot.launch" ns="tb3_1"/>
+    <include file="$(find controller)/launch/launch_single_bot.launch" ns="tb3_2"/>
+    <include file="$(find controller)/launch/launch_single_bot.launch" ns="tb3_3"/>
+
+
+
+</launch>

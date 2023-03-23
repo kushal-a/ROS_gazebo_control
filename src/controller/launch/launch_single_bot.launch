@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="controller" type="odom_controller.py" name="odom_controller" output="screen"/>
+
+</launch>
+
+
